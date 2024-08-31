@@ -54,7 +54,6 @@ export const useConfirm = (
           </Button>
           <Button
             onClick={handleConfirm}
-            variant="outline"
           >
             Confirm
           </Button>
