@@ -5,7 +5,7 @@ import {
   SheetHeader,
   SheetTitle,
 } from '@/components/ui/sheet';
-import { AccountForm } from './account-form';
+import { AccountForm } from './transaction-form';
 import { z } from 'zod';
 import { insertAccountSchema } from '@/db/schema';
 import { useOpenAccount } from '../hooks/use-open-account';
